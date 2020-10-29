@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11045" started-at="2020-10-29T13:06:25Z" finished-at="2020-10-29T13:06:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11045" started-at="2020-10-29T13:06:25Z" finished-at="2020-10-29T13:06:37Z">
+      <class name="GenetalTests">
+        <test-method status="PASS" signature="basicAuth()[pri:0, instance:GenetalTests@20e2cbe0]" name="basicAuth" duration-ms="2423" started-at="2020-10-29T13:06:26Z" finished-at="2020-10-29T13:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuth -->
+        <test-method status="PASS" signature="defaultBaseURL()[pri:0, instance:GenetalTests@20e2cbe0]" name="defaultBaseURL" duration-ms="2330" started-at="2020-10-29T13:06:28Z" finished-at="2020-10-29T13:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultBaseURL -->
+        <test-method status="PASS" signature="entityBody()[pri:0, instance:GenetalTests@20e2cbe0]" name="entityBody" duration-ms="379" started-at="2020-10-29T13:06:30Z" finished-at="2020-10-29T13:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entityBody -->
+        <test-method status="PASS" signature="entityBody2()[pri:0, instance:GenetalTests@20e2cbe0]" name="entityBody2" duration-ms="788" started-at="2020-10-29T13:06:31Z" finished-at="2020-10-29T13:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entityBody2 -->
+        <test-method status="PASS" signature="headers()[pri:0, instance:GenetalTests@20e2cbe0]" name="headers" duration-ms="776" started-at="2020-10-29T13:06:31Z" finished-at="2020-10-29T13:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headers -->
+        <test-method status="PASS" signature="queryParameter()[pri:0, instance:GenetalTests@20e2cbe0]" name="queryParameter" duration-ms="430" started-at="2020-10-29T13:06:32Z" finished-at="2020-10-29T13:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryParameter -->
+        <test-method status="PASS" signature="queryParameter2()[pri:0, instance:GenetalTests@20e2cbe0]" name="queryParameter2" duration-ms="492" started-at="2020-10-29T13:06:33Z" finished-at="2020-10-29T13:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryParameter2 -->
+        <test-method status="PASS" signature="requestFunc()[pri:0, instance:GenetalTests@20e2cbe0]" name="requestFunc" duration-ms="2954" started-at="2020-10-29T13:06:33Z" finished-at="2020-10-29T13:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestFunc -->
+        <test-method status="PASS" signature="routeParameter()[pri:0, instance:GenetalTests@20e2cbe0]" name="routeParameter" duration-ms="374" started-at="2020-10-29T13:06:36Z" finished-at="2020-10-29T13:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- routeParameter -->
+      </class> <!-- GenetalTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

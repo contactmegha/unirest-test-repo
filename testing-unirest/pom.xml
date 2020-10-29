@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>testing-unirest</groupId>
+  <artifactId>testing-unirest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<!-- Pull in as a traditional dependency -->
+<dependency>
+    <groupId>com.konghq</groupId>
+    <artifactId>unirest-java</artifactId>
+    <version>3.11.02</version>
+</dependency>
+
+<!-- OR as a snazzy new standalone jar with shaded dependencies -->
+<dependency>
+    <groupId>com.konghq</groupId>
+    <artifactId>unirest-java</artifactId>
+    <version>3.11.02</version>
+    <classifier>standalone</classifier>
+</dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.14.3</version>
+    <scope>test</scope> 
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.konghq/unirest-objectmapper-jackson -->
+<dependency>
+    <groupId>com.konghq</groupId>
+    <artifactId>unirest-objectmapper-jackson</artifactId>
+    <version>3.11.02</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.konghq/unirest-object-mappers-gson -->
+<dependency>
+    <groupId>com.konghq</groupId>
+    <artifactId>unirest-object-mappers-gson</artifactId>
+    <version>3.11.02</version>
+</dependency>
+  </dependencies>
+</project>
